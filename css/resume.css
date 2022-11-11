@@ -88,7 +88,10 @@ p.lead {
   outline-color: #d48a6e;
 }
 
-.invert/*, .carousel-indicators */ {
+.invert-half {
+  filter: invert(50%);
+}
+.invert-full {
   filter: invert(100%);
 }
 
