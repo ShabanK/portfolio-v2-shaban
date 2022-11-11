@@ -88,6 +88,10 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+.invert/*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
